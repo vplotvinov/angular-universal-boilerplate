@@ -1,0 +1,10 @@
+<ng-container *ngIf="!error else errorSection">
+    <router-outlet></router-outlet>
+</ng-container>
+
+<ng-template #errorSection>
+    <app-error [error]="error" (onDismiss)="onErrorDismiss()"></app-error>
+</ng-template>
+
+
+

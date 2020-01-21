@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "quotes": ["error", "single"],
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "types": ["node"]
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}

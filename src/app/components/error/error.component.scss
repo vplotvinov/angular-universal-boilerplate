@@ -1,0 +1,27 @@
+:host {
+  padding: 20px;
+  display: block;
+  background: #fff;
+
+  h3 {
+    font-size: 46px;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+
+  button {
+    background: none;
+    border: 1px solid #1e63ce;
+    font-size: 18px;
+    margin: 40px auto;
+    color: #1e63ce;
+    display: block;
+    padding: 10px 20px;
+    font-weight: 300;
+  }
+}
